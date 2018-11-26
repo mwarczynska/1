@@ -3,16 +3,60 @@
   <head>
     <meta charset="UTF-8">
     <title>Patato page</title>
+    <style>
+    body
+    {
+  background-color: blue;
+  }
+  p{
+  color: white;
+  }
+  ul {
+  padding-left:0;
+  margin: 0;
+  width: 200px;
+  float: left;
+  }
+  ul li{
+  display: block;
+  }
+  ul a{
+  display: block;
+  color:white;
+  text-decoration: none;
+  border: 1px solid black;
+  border-left-width:5px;
+  margin-bottom:5px;
+  padding: 2px 5px 2px 5px;
+  }
+  .content{
+  float:left;
+  margin-left:10px;
+  }
+  .content>h1{
+  margin-top:0;
+  }
+  img {
+  width:600px;
+  height: 500px;
+  }
+
+  </style>
   </head>
   <body>
+  <div id="all">
   <ul> 
   <li><a href="https://www.agh.edu.pl/">Home</a></li>
   <li><a href="https://pl.wiktionary.org/wiki/formularz">Forms</a></li>
-  <li><a href="https://pl.wikipedia.org/wiki/Komiks">Comic</a></li></a>
+  <li><a href="https://pl.wikipedia.org/wiki/Komiks">Comic</a></li>
+  </ul>
+  <div class="content">
   <h1>Here is our heading</h1>
   <p> Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 Paragraph 1 </p>
   <p> Paragraph 2 Paragraph 2 Paragraph 2 </p>
   <p> Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3 Paragraph 3</p>
   <img src="wave.jpg"/>
+  </div>
+  </div>
   </body>
 </html>
